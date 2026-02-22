@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/anura/Documents/GitHub/hydroponic_anurag/.claude/worktrees/confident-jennings log --oneline --all)",
+      "Bash(git -C /c/Users/anura/Documents/GitHub/hydroponic_anurag/.claude/worktrees/confident-jennings show --stat 613cf72)",
+      "Bash(git -C /c/Users/anura/Documents/GitHub/hydroponic_anurag/.claude/worktrees/confident-jennings show 613cf72:README.md)",
+      "Bash(git -C /c/Users/anura/Documents/GitHub/hydroponic_anurag/.claude/worktrees/confident-jennings status)",
+      "Bash(git ls-tree:*)",
+      "Bash(git -C /c/Users/anura/Documents/GitHub/hydroponic_anurag/.claude/worktrees/confident-jennings ls-files)",
+      "Bash(git -C \"C:/Users/anura/Documents/GitHub/hydroponic_anurag/.claude/worktrees/confident-jennings\" log --oneline -5)"
+    ]
+  }
+}
