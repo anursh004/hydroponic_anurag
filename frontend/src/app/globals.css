@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .stat-card {
+    @apply rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow;
+  }
+  .table-header {
+    @apply bg-gray-50 text-left text-xs font-medium uppercase tracking-wider text-gray-500;
+  }
+  .table-cell {
+    @apply whitespace-nowrap px-6 py-4 text-sm text-gray-700;
+  }
+}
